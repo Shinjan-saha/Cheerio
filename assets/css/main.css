@@ -1655,3 +1655,18 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.scroll-container {
+			max-height: 400px; /* Adjust the height as needed */
+			overflow-y: auto;
+		  }
+		  
+		  .image-container {
+			margin-bottom: 20px;
+		  }
+		  
+		  .image-container img {
+			width: 100%;
+			height: auto;
+		  }
+		  
