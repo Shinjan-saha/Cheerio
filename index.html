@@ -3,36 +3,14 @@
 <html>
 	<head>
 		<title>Cheerio</title>
+		<link rel="manifest" href ="manifest.json">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="apple-touch-icon" href="./images/cherlogo.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="./images/cherlogo.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			#sun-button {
-				position: fixed;
-				top: 20px;
-				right: 20px;
-				width: 40px;
-				height: 40px;
-				border-radius: 50%;
-				background-color: white;
-				box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-				z-index: 9999;
-				cursor: pointer;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-
-			#sun-icon {
-				width: 24px;
-				height: 24px;
-				background-image: url('./images/emergenew.png');
-				background-repeat: no-repeat;
-				background-size: cover;
-			}
-		</style>
+		
 	</head>
 	<body class="is-preload">
 		<script>
@@ -79,11 +57,7 @@
 						</nav>
 					</header>
 
-					<!-- Sun Button -->
-<a href="https://emerge-ece-tmsl.vercel.app/" id="sun-button" onclick="toggleTheme()">
-	<div id="sun-icon"></div>
-  </a>
-
+					
 				<!-- Main -->
 					<div id="main">
 
