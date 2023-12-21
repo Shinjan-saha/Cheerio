@@ -1,0 +1,19 @@
+{
+    "name": "Cheerio",
+    "short_name": "Cheerio-24",
+    "description": "Join us at the Annual Farewell of ECE Department",
+    
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0078d4",
+    "icons": [
+      {
+        "src": "./images/cherlogo.png",
+        "sizes": "540x540",
+        "type": "image/png"
+      }
+     
+    ]
+  }
+  
