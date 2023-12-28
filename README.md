@@ -23,10 +23,10 @@ Website For Farewell of ECE Department
 </ul>
 
 ## Preview Of Website in Desktop
-<img width="650" src="./img/newchercomp.png">
+<img width="650" src="./images/ireadmg/desk.png">
 
 ## Preview of Website in Mobile
-<img width="250" src="./img/newchermob.jpg">
+<img width="250" src="./images/ireadmg/mob.png">
 
 
 ## Visit The Website Here:-
