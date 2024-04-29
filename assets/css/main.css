@@ -1670,3 +1670,17 @@ input, select, textarea {
 			height: auto;
 		  }
 		  
+		  #contributeButton {
+			display: none; /* Hide the button by default */
+			padding: 10px 20px;
+			background-color: #007bff; /* Blue color */
+			color: white;
+			border: none;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+	
+		/* Style for the button on hover */
+		#contributeButton:hover {
+			background-color: #0056b3; /* Darker blue color */
+		}

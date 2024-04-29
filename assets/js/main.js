@@ -358,8 +358,7 @@
 
 			});
 
-		// Scroll restoration.
-		// This prevents the page from scrolling back to the top on a hashchange.
+		
 			if ('scrollRestoration' in history)
 				history.scrollRestoration = 'manual';
 			else {
@@ -395,3 +394,14 @@
 					});
 
 })(jQuery);
+
+
+
+document.getElementById('contribute').addEventListener('mouseover', function() {
+	document.getElementById('contributeButton').style.display = 'block';
+});
+
+
+document.getElementById('contribute').addEventListener('mouseleave', function() {
+	document.getElementById('contributeButton').style.display = 'none';
+});
