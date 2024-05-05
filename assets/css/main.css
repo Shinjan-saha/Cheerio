@@ -1268,7 +1268,7 @@ input, select, textarea {
 		}
 
 			#header > *:before {
-				content: '';
+				content: center;
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
@@ -1437,9 +1437,9 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: auto;
+                height: 5.85rem;
+                line-height: 4.75rem;
 			}
 
 				#header .logo .icon:before {
