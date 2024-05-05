@@ -1458,6 +1458,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+
+			#header .logo {
+				width: auto;
+                height: 5.85rem;
+                line-height: 4.75rem;
+			}
+
 			#header {
 				padding: 1.5rem 0;
 			}
