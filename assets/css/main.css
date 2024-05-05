@@ -1671,9 +1671,9 @@ input, select, textarea {
 		  }
 		  
 		  #contributeButton {
-			display: none; /* Hide the button by default */
+			display: none; 
 			padding: 10px 20px;
-			background-color: #007bff; /* Blue color */
+			background-color: #ff00e6; 
 			color: white;
 			border: none;
 			cursor: pointer;
@@ -1682,5 +1682,6 @@ input, select, textarea {
 	
 		/* Style for the button on hover */
 		#contributeButton:hover {
-			background-color: #0056b3; /* Darker blue color */
+			background-color: #f80593; 
+			padding: 10px 20px;
 		}
