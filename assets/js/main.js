@@ -405,3 +405,29 @@ document.getElementById('contribute').addEventListener('mouseover', function() {
 document.getElementById('contribute').addEventListener('mouseleave', function() {
 	document.getElementById('contributeButton').style.display = 'none';
 });
+
+
+// Get all image containers
+const imageContainers = document.querySelectorAll('.image-container');
+
+// Get the dialog box and its components
+const dialogBox = document.getElementById('imageDialog');
+const dialogImage = document.getElementById('dialogImage');
+const closeBtn = document.getElementById('closeDialog');
+
+// Attach click event to each image container
+imageContainers.forEach(container => {
+    container.addEventListener('click', function() {
+        // Get the clicked image source and set it in the dialog box
+        const imgSrc = this.querySelector('img').src;
+        dialogImage.src = imgSrc;
+
+        // Show the dialog box
+        dialogBox.style.display = 'block';
+    });
+});
+
+// Close the dialog box when close button is clicked
+closeBtn.addEventListener('click', function() {
+    dialogBox.style.display = 'none';
+});
