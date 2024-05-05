@@ -1677,7 +1677,7 @@ input, select, textarea {
 			color: white;
 			border: none;
 			cursor: pointer;
-			margin-top: 10px;
+			margin-top: 1px;
 		}
 	
 		/* Style for the button on hover */
