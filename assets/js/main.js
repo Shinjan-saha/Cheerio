@@ -407,21 +407,3 @@ document.getElementById('contribute').addEventListener('mouseleave', function() 
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const imageContainers = document.querySelectorAll('.image-container');
-    const dialogBox = document.getElementById('imageDialog');
-    const dialogImage = document.getElementById('dialogImage');
-    const closeBtn = document.getElementById('closeDialog');
-
-    imageContainers.forEach(container => {
-        container.addEventListener('click', function() {
-            const imgSrc = this.querySelector('img').src;
-            dialogImage.src = imgSrc;
-            dialogBox.style.display = 'block';
-        });
-    });
-
-    closeBtn.addEventListener('click', function() {
-        dialogBox.style.display = 'none';
-    });
-});
