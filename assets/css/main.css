@@ -1680,7 +1680,7 @@ input, select, textarea {
 		  #contributeButton {
 			display: none; 
 			padding: 10px 20px;
-			background-color: #ff00e6; 
+			background-color: #151415; 
 			color: white;
 			border: none;
 			cursor: pointer;
@@ -1689,6 +1689,6 @@ input, select, textarea {
 	
 		/* Style for the button on hover */
 		#contributeButton:hover {
-			background-color: #f80593; 
+			background-color: #12090e; 
 			padding: 10px 20px;
 		}
