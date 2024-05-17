@@ -10,7 +10,7 @@ Website For Farewell of ECE Department
 <br>
 
 
-<img align="centre" width="250" src="./images/cherlogo.png">
+<img align="centre" width="250" src="./images/facepic.jpg">
 
 
 ## Tools & Language Used in the Website:-
@@ -22,11 +22,11 @@ Website For Farewell of ECE Department
 <li><img width ="75" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></li>
 </ul>
 
-## Preview Of Website in Desktop
+<!-- ## Preview Of Website in Desktop
 <img width="650" src="./images/ireadmg/desk.png">
 
 ## Preview of Website in Mobile
-<img width="250" src="./images/ireadmg/mob.png">
+<img width="250" src="./images/ireadmg/mob.png"> -->
 
 
 ## Visit The Website Here:-
