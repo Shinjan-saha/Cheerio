@@ -1695,4 +1695,23 @@ input, select, textarea {
 
 
 
-		
+		/* Existing styles */
+.round-image {
+	border-radius: 50%;
+	width: 80px; /* Adjust the width as needed */
+	height: 80px; /* Adjust the height as needed */
+	object-fit: cover;
+  }
+  
+  .team-members {
+	display: flex;
+	justify-content: space-between; /* Distributes space evenly */
+	margin-top: 20px;
+  }
+  
+  /* New style for the container element (assuming an ID) */
+  #team-members-container {
+	display: flex; /* Enables flexbox layout */
+	flex-direction: row; /* Arranges items side-by-side (default) */
+  }
+  
