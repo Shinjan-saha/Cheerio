@@ -41,6 +41,9 @@ self.addEventListener('install', e => {
                  './images/yellowcir.png',
                  './images/contribute24.png',
                  './images/intro24.png ',
+                 './images/logo2025.png ',
+                 './images/cheerio25.png ',
+
                  
                  
                  './images/logo2024.png','./images/cheerio24.png',
