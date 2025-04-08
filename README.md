@@ -10,7 +10,7 @@ Website For Farewell of ECE Department
 <br>
 
 
-<img align="centre" width="250" src="./images/facepic.jpg">
+<img align="centre" width="250" src="./images/cheerio2025-1.png">
 
 
 ## Tools & Language Used in the Website:-
