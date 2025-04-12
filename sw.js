@@ -43,11 +43,14 @@ self.addEventListener('install', e => {
                  './images/bluecir.png',
                  './images/contribute24.png',
                  './images/contribute25.png',
-                 './images/intro24.png ',
-                 './images/intro25.png ',
-                 './images/logo2025.png ',
-                 './images/cheerio25.png ',
-                 './images/cheerio25-1.png ',
+                 './images/intro24.png',
+                 './images/intro25.png',
+                 './images/logo2025.png',
+                 './images/cheerio25.png',
+                 './images/cheerio25-1.png',
+                 './images/cheerio25-4.png',
+                 './images/s-bg.png ',
+
 
                  
                  
